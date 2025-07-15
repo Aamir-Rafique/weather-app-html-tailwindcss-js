@@ -1,5 +1,3 @@
-
-
 const API_KEY = "96bf54ef5bba4763b4455751250507";
 const BASE_URL = "https://api.weatherapi.com/v1/current.json";
 
