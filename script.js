@@ -111,7 +111,7 @@ document.getElementById("geo-btn").addEventListener("click", () => {
             const data = await response.json();
 
             displayWeatherInfo(data);
-            showWeatherInfoBox();   
+            showWeatherInfoBox();
         },
         function (error) {
             alert("Unable to retrieve your location.");
@@ -128,5 +128,5 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function showWeatherInfoBox() {
-    weatherInfoBox.style.display='flex';
+    weatherInfoBox.style.display = 'flex';
 }
